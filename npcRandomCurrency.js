@@ -8,6 +8,8 @@
 //     - adds that coin to the token
 ///////////////////////////////////////////////////////
 
+// Foundry V12, D&D 5e 3.3.1
+
 for (let c of canvas.tokens.controlled) {
     if (c.actor.type != "npc") {
         console.log("XXXXX__//  ", c.actor.name, "is a ", c.actor.type, "   \\\\__XXXXX");
